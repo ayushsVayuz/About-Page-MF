@@ -4,11 +4,8 @@ function AboutPage() {
 
     return (
         <div className="mt-12 px-4 sm:px-10 lg:px-20 flex flex-col text-center gap-10">
-
             <p className="text-3xl sm:text-4xl lg:text-5xl font-bold">About</p>
             <p className="text-lg sm:text-xl">Why I love doing coding. Every day.</p>
-
-
             <div className="flex justify-center">
                 <img
                     className="h-40 w-40 sm:h-60 sm:w-60 lg:h-80 lg:w-80 rounded-full object-cover"
@@ -16,7 +13,6 @@ function AboutPage() {
                     alt="Profile"
                 />
             </div>
-
 
             <div className="text-start leading-8 tracking-wide mx-auto max-w-3xl">
                 <p>
@@ -32,13 +28,9 @@ function AboutPage() {
                 <p>
                     Collaborative by nature and detail-oriented in my approach, I aim to leave a lasting impact in the
                     digital world through thoughtful and creative web solutions.
-                </p>
-
-                <p>Don't hesitate to reach out – let's grab a coffee and chat!</p>
-
+                </p><br />
+                <p>Don't hesitate to reach out – let's grab a coffee and chat!</p><br />
             </div>
-
-
 
             <div className="flex justify-center gap-6">
                 <a href="https://www.instagram.com/sharmaayushay/" target="_blank" rel="noreferrer">
@@ -54,7 +46,6 @@ function AboutPage() {
                     <img className="h-8 w-8 sm:h-10 sm:w-10" src="linkedin.png" alt="LinkedIn-Profile" />
                 </a>
             </div>
-
 
             <div className="mt-6">
                 <a href="mailto:sharmaayushay@gmail.com?subject=What you're interested in" target="_blank">
