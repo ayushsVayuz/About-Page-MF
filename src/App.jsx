@@ -1,13 +1,14 @@
 import React from 'react';
 import AboutPage from './components/pages/AboutPage';
 import './index.css'
+import CheckInternetConnection from './components/CheckInternetConnection';
 
 const App = () => {
 
   return (
-    <div>
+    <CheckInternetConnection>
       <AboutPage/>
-    </div>
+    </CheckInternetConnection>
   );
 };
 
